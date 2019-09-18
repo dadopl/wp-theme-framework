@@ -3,7 +3,7 @@
     "description": "Simple theme framework for Wordpress",
     "type": "composer-plugin",
     "license": "GPL-2.0-or-later",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
         {
