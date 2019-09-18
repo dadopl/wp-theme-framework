@@ -1,0 +1,26 @@
+{
+    "name": "dadopl/wp-theme-framework",
+    "description": "Simple theme framework for Wordpress",
+    "type": "composer-plugin",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Daniel Golabek",
+            "email": "golabek.daniel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "dadopl\\wpth\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "mockery/mockery": "^0.9.7"
+    }
+}
